@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[Zen.DirectoryMonitor.sln]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.DirectoryMonitor", MJAAAAAA
+
+[Zen.DirectoryMonitor.csproj]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.DirectoryMonitor", MJAAAAAA

@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[SchemaMgr.sln]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.DBAToolbox", CHAAAAAA
+
+[Zen.DBAToolbox.csproj]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.DBAToolbox", CHAAAAAA

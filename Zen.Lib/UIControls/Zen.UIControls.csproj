@@ -1,0 +1,259 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F818512-0936-4239-9867-2BADAA7CE037}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zen.UIControls</RootNamespace>
+    <AssemblyName>Zen.UIControls</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/Zen.UIControls/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Naming#CA1704</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Zen.DBMS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.Proc\SysTrayAppBase.cs" />
+    <Compile Include="App.Proc\SysTrayHostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\FileDirBrowserOpt.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="_AutoDisplay\CollectionCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\CollectionDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\CollectionDlg.designer.cs">
+      <DependentUpon>CollectionDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_AutoDisplay\PropertyHints.cs" />
+    <Compile Include="_AutoDisplay\TwinCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\DictionaryCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\IAutoControl.cs" />
+    <Compile Include="_Misc\MaskedTextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Misc\DialogInvoker.cs" />
+    <Compile Include="_Misc\LineCtrl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\PropertyDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\HeadBodyFootCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\CtrlBuilder.cs" />
+    <Compile Include="_AutoDisplay\PropertyCtrl.designer.cs">
+      <DependentUpon>PropertyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_AutoDisplay\PropertyCtrlBinder.cs" />
+    <Compile Include="_AutoDisplay\PropertyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Misc\ControllerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Misc\ControllerCtrl.designer.cs">
+      <DependentUpon>ControllerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Misc\ControllerDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Misc\ControllerDlg.Designer.cs">
+      <DependentUpon>ControllerDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_AutoDisplay\LayoutWriter.cs" />
+    <Compile Include="_AutoDisplay\LayoutDef.cs" />
+    <Compile Include="_AutoDisplay\Legacy\OptionsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\Legacy\OptionsCtrl.designer.cs">
+      <DependentUpon>OptionsCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_AutoDisplay\Legacy\OptionsDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_AutoDisplay\Legacy\OptionsDlg.designer.cs">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Misc\IValidationCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Misc\MessageBoxEx.cs" />
+    <Compile Include="App.Proc\BackGroundWorkerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\FileDirBrowser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="File\SaveWithEncodingDlg.cs" />
+    <Compile Include="File\FileDirBrowserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="File\FileDirBrowserCtrl.designer.cs">
+      <DependentUpon>FileDirBrowserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Misc\SvcRegisterDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Misc\SvcRegisterDlg.designer.cs">
+      <DependentUpon>SvcRegisterDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Misc\UserPasswdCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Misc\UserPasswdCtrl.designer.cs">
+      <DependentUpon>UserPasswdCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_AutoDisplay\PropertyCtrlInfo.cs" />
+    <Compile Include="_AutoDisplay\PropertyDlg.designer.cs">
+      <DependentUpon>PropertyDlg.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_Misc\ControllerCtrl.resx">
+      <DependentUpon>ControllerCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Misc\ControllerDlg.resx">
+      <DependentUpon>ControllerDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AutoDisplay\CollectionDlg.resx">
+      <DependentUpon>CollectionDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AutoDisplay\Legacy\OptionsCtrl.resx">
+      <DependentUpon>OptionsCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\FileDirBrowserCtrl.resx">
+      <DependentUpon>FileDirBrowserCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AutoDisplay\Legacy\OptionsDlg.resx">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Misc\SvcRegisterDlg.resx">
+      <DependentUpon>SvcRegisterDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Misc\UserPasswdCtrl.resx">
+      <DependentUpon>UserPasswdCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AutoDisplay\PropertyCtrl.resx">
+      <DependentUpon>PropertyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AutoDisplay\PropertyDlg.resx">
+      <DependentUpon>PropertyDlg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Zen.Utilities.csproj">
+      <Project>{C505A649-BE90-4E02-AE73-162697F8BEBC}</Project>
+      <Name>Zen.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zen.Common.Def\Zen.Common.Def.csproj">
+      <Project>{86162620-1DA6-4292-A3CD-4763D4C7EA36}</Project>
+      <Name>Zen.Common.Def</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_ToDo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

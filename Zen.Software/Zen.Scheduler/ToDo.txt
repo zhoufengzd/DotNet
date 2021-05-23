@@ -1,0 +1,21 @@
+﻿
+Service:
+  OnStart: kick off running thread(s)
+  OnStop: stop requested
+  
+Scheduler:
+  Timer + Thread
+  
+Timer:
+  Polling
+  Pushing? WCF hosted service?  
+  
+  
+UI: to allow user add / remove /update task
+
+Game controller: 
+  stop game at specific time (scheduler)
+  stop game if running for ... hour(s) (exe log == Process Monitor)
+  
+Backend schema: SqlLite?
+   

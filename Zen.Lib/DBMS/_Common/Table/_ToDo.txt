@@ -1,0 +1,23 @@
+5:18 PM 3/3/2010
+
+Reader: read from database / table
+Writer: write to database
+
+3:56 PM 11/5/2008
+
+Test Search filter
+Finish up insert / update / delete
+Find table prime key: not tested yet
+
+StreamLine TableAdapterBlder: done.
+
+Retrieve list of all tables so I could test more: done
+
+TblForm: auto hide / handle undisplayable column: done.
+
+TableSchema: done transition. Now it's part of the TableAdapter.
+  1. Provide schema to build DataTable
+  2. Provide column mapping for BulkCopier
+  3. Build ColumnMapper -> map column value to ItemArray in DataTable
+  
+  

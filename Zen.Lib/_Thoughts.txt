@@ -1,0 +1,3 @@
+
+Shared common routines (library functions).
+Also share design patterns, or problem solution patterns, so less errors will produced.

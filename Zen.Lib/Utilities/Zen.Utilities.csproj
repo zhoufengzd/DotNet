@@ -1,0 +1,193 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C505A649-BE90-4E02-AE73-162697F8BEBC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zen.Utilities</RootNamespace>
+    <AssemblyName>Zen.Utilities</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/Zen.Utilities/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithm\Finder.cs" />
+    <Compile Include="Algorithm\IComplexObj.cs" />
+    <Compile Include="Algorithm\IDataProviderConsumer.cs" />
+    <Compile Include="App.Proc\AppInstance.cs" />
+    <Compile Include="App.Proc\ConfigurationMgr.cs" />
+    <Compile Include="Generics.Reflection\Collections\EnumeratorMgr.cs" />
+    <Compile Include="Generics.Reflection\Collections\Grouper.cs" />
+    <Compile Include="Generics.Reflection\Collections\MultiMap.cs" />
+    <Compile Include="Generics.Reflection\Collections\DataTree.cs" />
+    <Compile Include="Generics.Reflection\GenericDef.cs" />
+    <Compile Include="FileUtil.Regex\LogFile.cs" />
+    <Compile Include="FileUtil.Regex\Regex.Text\RTFFormatter.cs" />
+    <Compile Include="FileUtil.Regex\TextFile\DelimitedReader.cs" />
+    <Compile Include="Generics.Reflection\Collections\ArrayStack.cs" />
+    <Compile Include="Generics.Reflection\Collections\TwoWayMap.cs" />
+    <Compile Include="Generics.Reflection\ObjIdentifier.cs" />
+    <Compile Include="Generics.Reflection\TypeFacet.cs" />
+    <Compile Include="Generics.Reflection\GenBuilder.cs" />
+    <Compile Include="Generics.Reflection\TypeConst.cs" />
+    <Compile Include="FileUtil.Regex\Regex.Text\RegexPro.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Service\ISvcItem.cs" />
+    <Compile Include="Threading\ControllerBase.cs" />
+    <Compile Include="Threading\ThreadController.cs" />
+    <Compile Include="Threading\IControllable.cs" />
+    <Compile Include="Threading\ThreadContext.cs" />
+    <Compile Include="App.Proc\ResourceLoader.cs" />
+    <Compile Include="Threading\ThreadCoordinator.cs" />
+    <Compile Include="FileUtil.Regex\BatchOperatorBase.cs" />
+    <Compile Include="FileUtil.Regex\CheckSum.cs" />
+    <Compile Include="FileUtil.Regex\FileDiff.cs" />
+    <Compile Include="FileUtil.Regex\FileDirLister.cs" />
+    <Compile Include="FileUtil.Regex\FileOptions.cs" />
+    <Compile Include="FileUtil.Regex\SearchOptions.cs" />
+    <Compile Include="FileUtil.Regex\Regex.Text\EncodingDetector.cs" />
+    <Compile Include="FileUtil.Regex\TextFile\TextDispatcher.cs" />
+    <Compile Include="FileUtil.Regex\TextFile\TextReplacer.cs" />
+    <Compile Include="FileUtil.Regex\TextFile\TextReplacer.Options.cs">
+      <DependentUpon>TextReplacer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileUtil.Regex\TextFile\WordCount.cs" />
+    <Compile Include="Generics.Reflection\DynModuleBlder.cs" />
+    <Compile Include="_Misc\Macros.cs" />
+    <Compile Include="FileUtil.Regex\Regex.Text\NameCleaner.cs" />
+    <Compile Include="Algorithm\Comparator.cs" />
+    <Compile Include="App.Proc\AssemblyQueryer.cs" />
+    <Compile Include="Const.Defs\ErrorDefs.cs" />
+    <Compile Include="Const.Defs\NumberConst.cs" />
+    <Compile Include="Generics.Reflection\Collections\Set.cs" />
+    <Compile Include="FileUtil.Regex\DocHasher.cs" />
+    <Compile Include="FileUtil.Regex\FileValidator.cs" />
+    <Compile Include="App.Proc\IniFileReader.cs" />
+    <Compile Include="FileUtil.Regex\Regex.Text\DelimitedFormatter.cs" />
+    <Compile Include="Generics.Reflection\ObjSerializer.cs" />
+    <Compile Include="FileUtil.Regex\PathBuilder.cs" />
+    <Compile Include="App.Proc\ProcExecutor.cs" />
+    <Compile Include="Generics.Reflection\TypeInterrogator.cs" />
+    <Compile Include="FileUtil.Regex\TextFile\ScriptLoader.cs" />
+    <Compile Include="Printing\PrintController.cs" />
+    <Compile Include="Service\SvcHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service\SvcsManager.cs" />
+    <Compile Include="Service\SvcInstallerBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App.Proc\ProcEnvironInfo.cs" />
+    <Compile Include="App.Proc\ProcMonitor.cs" />
+    <Compile Include="Service\SvcWorkerBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Algorithm\_ToDo.txt" />
+    <None Include="Generics.Reflection\_PreDefinedTypes.png" />
+    <Content Include="Service\_readme.txt" />
+    <Content Include="_ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zen.Common.Def\Zen.Common.Def.csproj">
+      <Project>{86162620-1DA6-4292-A3CD-4763D4C7EA36}</Project>
+      <Name>Zen.Common.Def</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

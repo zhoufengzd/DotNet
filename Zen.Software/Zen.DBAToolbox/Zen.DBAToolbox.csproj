@@ -1,0 +1,272 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Zen.DBAToolbox</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Zen.DBAToolbox</RootNamespace>
+    <StartupObject>Zen.DBAToolbox.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/SchemaMgr/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="SQLDMO">
+      <Guid>{10010001-E260-11CF-AE68-00AA004A34D5}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppInstance.cs" />
+    <Compile Include="SqlControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SqlControl.Designer.cs">
+      <DependentUpon>SqlControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBMS.UI\AccessObjectTree.cs" />
+    <Compile Include="DBMS.UI\MySqlObjectTree.cs" />
+    <Compile Include="DBMS.UI\DB2ObjectTree.cs" />
+    <Compile Include="DBMS.UI\OracleObjectTree.cs" />
+    <Compile Include="DBMS.UI\DataTableTree.cs" />
+    <Compile Include="DBMS.UI\SqliteObjectTree.cs" />
+    <Compile Include="DBMS.UI\SqlCeObjectTree.cs" />
+    <Compile Include="Resources\Icons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DBMS.UI\DBObjectTree.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaManager\SchemaManager.cs" />
+    <Compile Include="DBMS.UI\SqlSvrObjectTree.cs" />
+    <Compile Include="TableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableControl.Designer.cs">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableViewExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableViewExplorer.Designer.cs">
+      <DependentUpon>TableViewExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaManager\SchemaMgrDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchemaManager\SchemaMgrDlg.Designer.cs">
+      <DependentUpon>SchemaMgrDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaManager\SchemaObjects.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewFilterDef.cs" />
+    <EmbeddedResource Include="SqlControl.resx">
+      <DependentUpon>SqlControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Resources\CaseSchema.xml" />
+    <EmbeddedResource Include="Resources\Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableControl.resx">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableViewExplorer.resx">
+      <DependentUpon>TableViewExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemaManager\SchemaMgrDlg.resx">
+      <DependentUpon>SchemaMgrDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Resources\ulmschema.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Zen.Lib\DBMS\Zen.DBMS.csproj">
+      <Project>{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}</Project>
+      <Name>Zen.DBMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Zen.Lib\UIControls\Zen.UIControls.csproj">
+      <Project>{1F818512-0936-4239-9867-2BADAA7CE037}</Project>
+      <Name>Zen.UIControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Zen.Lib\Utilities\Zen.Utilities.csproj">
+      <Project>{C505A649-BE90-4E02-AE73-162697F8BEBC}</Project>
+      <Name>Zen.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Zen.Lib\Zen.Common.Def\Zen.Common.Def.csproj">
+      <Project>{86162620-1DA6-4292-A3CD-4763D4C7EA36}</Project>
+      <Name>Zen.Common.Def</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB.ico" />
+    <None Include="Resources\DBSelected.ico" />
+    <None Include="Resources\Refresh.ico" />
+    <None Include="Resources\Table.ico" />
+    <None Include="Resources\TableSelected.ico" />
+    <None Include="Resources\Group.ico" />
+    <None Include="Resources\GroupSelected.ico" />
+    <None Include="Resources\Server.ico" />
+    <None Include="Resources\ServerSelected.ico" />
+    <None Include="Resources\Datasource.ico" />
+    <None Include="Resources\DatasourceSelected.ico" />
+    <None Include="Resources\Execute.ico" />
+    <None Include="Resources\Save.ico" />
+    <None Include="Resources\Close.ico" />
+    <Content Include="_To.Do.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

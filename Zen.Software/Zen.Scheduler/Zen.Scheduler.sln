@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Scheduler", "Zen.Scheduler.csproj", "{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Utilities", "..\..\Zen.Lib\Utilities\Zen.Utilities.csproj", "{C505A649-BE90-4E02-AE73-162697F8BEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorkerExample", "..\..\..\_ObservationGround\MSDN\MSDN.Example\2003\2003.02\BackgroundWorkerExample\BackgroundWorkerExample.csproj", "{4ADFAC8E-535E-4E57-9FEB-71FF27BB395D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.UIControls", "..\..\Zen.Lib\UIControls\Zen.UIControls.csproj", "{1F818512-0936-4239-9867-2BADAA7CE037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbortableThreadPool", "..\..\..\_ObservationGround\MSDN\MSDN.Example\2006.03\NetMatters0603\AbortableThreadPool.csproj", "{6EED55CF-5DBC-4BC5-9F61-F0E1D5025A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmClockSystemTray", "..\..\..\_ObservationGround\MSDN\23 C# Samples\SystemTray\AlarmClockSystemTray\AlarmClockSystemTray.csproj", "{F4F26490-8A3B-4AD7-ABFB-205B356E10C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.ServiceController", "..\Zen.ServiceController\Zen.ServiceController.csproj", "{FBB339A0-B736-483A-9BC1-44188260B58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADFAC8E-535E-4E57-9FEB-71FF27BB395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADFAC8E-535E-4E57-9FEB-71FF27BB395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADFAC8E-535E-4E57-9FEB-71FF27BB395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADFAC8E-535E-4E57-9FEB-71FF27BB395D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EED55CF-5DBC-4BC5-9F61-F0E1D5025A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EED55CF-5DBC-4BC5-9F61-F0E1D5025A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EED55CF-5DBC-4BC5-9F61-F0E1D5025A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EED55CF-5DBC-4BC5-9F61-F0E1D5025A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F26490-8A3B-4AD7-ABFB-205B356E10C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F26490-8A3B-4AD7-ABFB-205B356E10C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F26490-8A3B-4AD7-ABFB-205B356E10C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F26490-8A3B-4AD7-ABFB-205B356E10C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

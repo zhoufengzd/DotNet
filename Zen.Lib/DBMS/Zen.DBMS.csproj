@@ -1,0 +1,144 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zen.DBMS</RootNamespace>
+    <AssemblyName>Zen.DBMS</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IBM.Data.DB2, Version=9.0.0.2, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdPartyLibrary\IBM.Data.DB2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdPartyLibrary\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.65.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdPartyLibrary\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdPartyLibrary\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="By.Platform\Access\AccessLogin.cs" />
+    <Compile Include="By.Platform\Access\AccessInstance.cs" />
+    <Compile Include="By.Platform\Access\AccessContext.cs" />
+    <Compile Include="By.Platform\DB2\DB2Context.cs" />
+    <Compile Include="By.Platform\DB2\DB2Instance.cs" />
+    <Compile Include="By.Platform\DB2\DB2Login.cs" />
+    <Compile Include="By.Platform\DB2\DB2Identifier.cs" />
+    <Compile Include="By.Platform\MySql\MySqlContext.cs" />
+    <Compile Include="By.Platform\MySql\MySqlLogin.cs" />
+    <Compile Include="By.Platform\Oracle\OracleContext.cs" />
+    <Compile Include="By.Platform\Oracle\OracleInstance.cs" />
+    <Compile Include="By.Platform\Oracle\OracleLogin.cs" />
+    <Compile Include="By.Platform\Sqlite\SqliteInstance.cs" />
+    <Compile Include="By.Platform\Sqlite\SqliteContext.cs" />
+    <Compile Include="By.Platform\Sqlite\SqliteHelper.cs" />
+    <Compile Include="By.Platform\Sqlite\SqliteLogin.cs" />
+    <Compile Include="By.Platform\SqlServerCe\SqlCeInstance.cs" />
+    <Compile Include="By.Platform\SqlServerCe\SqlCeContext.cs" />
+    <Compile Include="By.Platform\SqlServerCe\SqlCeLogin.cs" />
+    <Compile Include="By.Platform\SqlServer\SqlSvrIdentifier.cs" />
+    <Compile Include="By.Platform\SqlServer\SqlSvrContext.cs" />
+    <Compile Include="By.Platform\SqlServer\SqlSvrInstance.cs" />
+    <Compile Include="By.Platform\SqlServer\SqlSvrSchemaReader.cs" />
+    <Compile Include="_Common\Connection\ConnMgr.cs" />
+    <Compile Include="_Common\DBMSContext.cs" />
+    <Compile Include="_Common\ORMGenerator.cs" />
+    <Compile Include="_Common\Schema\SchemaContext.cs" />
+    <Compile Include="_Common\Schema\DBObjectIdentifier.cs" />
+    <Compile Include="_Common\Schema\DBObjects.cs" />
+    <Compile Include="_Common\Schema\SchemaReader.cs" />
+    <Compile Include="_Common\Schema\ISQLExecutor.cs" />
+    <Compile Include="_Common\Schema\IDDLActions.cs" />
+    <Compile Include="_Common\Schema\IQuoter.cs" />
+    <Compile Include="_Common\Schema\SchemaBuilder.cs" />
+    <Compile Include="_Common\Schema\SchemaConst.cs" />
+    <Compile Include="_Common\Schema\DTDictionary.cs" />
+    <Compile Include="_Common\Schema\Security.cs" />
+    <Compile Include="_Common\Schema\DBEnum.cs" />
+    <Compile Include="_Common\Connection\DBLoginInfo.cs" />
+    <Compile Include="By.Platform\SqlServer\SqlSvrLogin.cs" />
+    <Compile Include="_Common\DataSourceInstance.cs" />
+    <None Include="_Common\Table\Column\ColDataTransformer.cs" />
+    <None Include="_Common\Table\Column\ColDataValidator.cs" />
+    <None Include="_Common\Table\Column\ColumnMapper.cs" />
+    <Compile Include="_Common\Table\TableViewer.cs" />
+    <Compile Include="_Common\Table\Column\ColumnWriter.cs" />
+    <Compile Include="_Common\Table\Reader\CsvWriter.cs" />
+    <Compile Include="_Common\Table\Column\FieldError.cs" />
+    <Compile Include="_Common\Table\Column\IColumnDataProcessor.cs" />
+    <Compile Include="_Common\Table\Writer\ILoadEventListener.cs" />
+    <Compile Include="_Common\Table\Writer\IndexBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Common\Table\DataTableBuilder.cs" />
+    <Compile Include="_Common\Table\Reader\ITableData.cs" />
+    <Compile Include="_Common\Table\Writer\TableAdapter.cs" />
+    <Compile Include="_Common\Table\StagingTableMgr.cs" />
+    <Compile Include="_Common\Table\Reader\TableData.cs" />
+    <Compile Include="_Common\Schema\TableSchema.cs" />
+    <Compile Include="_Common\Table\TableSpBuilder.cs" />
+    <Compile Include="By.Platform\SqlServer\TempSqlObjNameGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Zen.Utilities.csproj">
+      <Project>{C505A649-BE90-4E02-AE73-162697F8BEBC}</Project>
+      <Name>Zen.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zen.Common.Def\Zen.Common.Def.csproj">
+      <Project>{86162620-1DA6-4292-A3CD-4763D4C7EA36}</Project>
+      <Name>Zen.Common.Def</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_Common\Schema\_ToDo.txt" />
+    <Content Include="_Common\Table\_ToDo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

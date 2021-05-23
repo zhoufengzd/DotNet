@@ -1,0 +1,14 @@
+﻿Command Launcher:
+  auto pick icon: user IconExtractor, index = 0.
+  Mac / linux launcher? Mostly UI thing.
+  Need to run on background thread.
+
+Process monitor: 
+  Romeo never die.
+  Why some process can not be killed?
+  How to hook into logon event?
+  System tray icon: found example. done.
+  
+Timed operation:
+  Game controller
+  Scheduler service:   

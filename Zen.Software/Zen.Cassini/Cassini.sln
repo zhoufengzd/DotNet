@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassini", "Cassini\Cassini.csproj", "{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassiniAdmin", "Admin\CassiniAdmin.csproj", "{BBE143FC-07FB-4B2D-9E9F-93763D5831D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE143FC-07FB-4B2D-9E9F-93763D5831D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE143FC-07FB-4B2D-9E9F-93763D5831D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE143FC-07FB-4B2D-9E9F-93763D5831D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE143FC-07FB-4B2D-9E9F-93763D5831D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

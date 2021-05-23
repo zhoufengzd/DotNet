@@ -1,0 +1,12 @@
+﻿12:40 AM 2/4/2010
+Set frequency: e.g. 24 frames / second
+digi sign
+
+----------------------------------------
+MRU Options:
+  Default directory
+  Default format
+
+My Document \ScreenShots\2009.04.08\164410.tif 
+
+Tiff file locked, why?

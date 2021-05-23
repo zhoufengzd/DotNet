@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[FileProcessor.sln]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.FileProcessor", XJAAAAAA
+
+[Zen.FileProcessor.csproj]
+SCC_Aux_Path = "C:\Dev\SourceSafe"
+SCC_Project_Name = "$/DotNet/Zen.Software/Zen.FileProcessor", XJAAAAAA

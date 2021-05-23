@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCapturer", "ScreenCapturer.csproj", "{2D2F6F45-88FE-4CAA-B94B-DDF89F9F423D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModiLib", "..\ModiLib\ModiLib.csproj", "{357F78E0-53E5-4004-B6CC-DAD134923E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.UIControls", "..\..\..\Zen.Lib\UIControls\Zen.UIControls.csproj", "{1F818512-0936-4239-9867-2BADAA7CE037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Utilities", "..\..\..\Zen.Lib\Utilities\Zen.Utilities.csproj", "{C505A649-BE90-4E02-AE73-162697F8BEBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D2F6F45-88FE-4CAA-B94B-DDF89F9F423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2F6F45-88FE-4CAA-B94B-DDF89F9F423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2F6F45-88FE-4CAA-B94B-DDF89F9F423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2F6F45-88FE-4CAA-B94B-DDF89F9F423D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

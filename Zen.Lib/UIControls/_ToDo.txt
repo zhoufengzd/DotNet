@@ -1,0 +1,15 @@
+﻿
+Option dialog: 
+  Add vertical spacing between properties
+  Category: in its own tab
+  Property: friendly name, display order, Advanced
+  Attribute: access public attribute
+  OK/ Cancel / Action: external delegate
+  
+Once option / property control is done, most user control no longer needed.
+
+To do: wizard page
+  Master / detail page
+  
+Button / Menu item command UI
+  Auto generate menu items from config  

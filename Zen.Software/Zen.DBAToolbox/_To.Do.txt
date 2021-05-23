@@ -1,0 +1,67 @@
+﻿The power: 
+  1. performance: batch / OleDB loader as needed.
+  2. cross dbms
+
+Sub:
+  1. SqlCe Management Studio?
+
+Architecture (DB Object Explorer)
+  1: AppInstance
+    1: MainForm
+      1: TableView Explorer
+		4+: DBMS Context
+		  N: ServerInstance (Sql / Table)
+			1: DB Object tree (node id -> sub tree)
+				0~N: sub tree by database
+                Grouper by schema / database (Multiple columns or leaf only)
+                  SearchBy / Fileter (Match Condition: Field Value Compare Type)
+                  IDisplayer: DataTable + Cell
+    1: Server connection List (By DBMS / DataSource
+
+Architecture (Frame / Child Frame / Toolbar)
+    1: MainForm
+	  1: TableViewExplorer (Tree)
+	  1: Table Editor / Viewer (TabControl)
+	  1: Sql Executor Control (Per datasource instance)
+	  1. Toolbar Manager
+	       Command Router
+	       Context Menu
+
+1:38 AM 1/9/2010
+
+To do:
+
+CSV / Loader
+  Generate sql / sp automatically from DB Table
+  Create Table from csv file
+Exporter:
+  Field mapping
+    
+Tree View:
+  Multi selection
+  Dray & drop db (Access / Sqlite, etc)
+
+OSV file --> open / close tag csv
+
+Encrypte / decrypt option file (Fully qualified file name)
+XML attribute for opject (like AppSettings)
+Versioning (soap api)
+
+Flow:
+  C# struct ==> DB Table: in progress
+  DB Table ==> C# struct
+  DB Table: Import / Export
+  
+Master / Slave thread pattern: Event vs Timer
+
+Rewrite Quick Indexer  
+
+Text Mining: 
+    Deduping / Auto subject 
+ 
+ Menu / Toolbar
+ 
+Access Programming: 
+  copy / build empty database file;  
+  add table
+  

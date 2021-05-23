@@ -1,0 +1,51 @@
+﻿
+Code review:
+  Remove middle layer which does not really handle any complex logic
+
+Options Versioning:
+
+** Controllable process, consolidate with work item (backgroundworker)
+ProcController.withUI (desktop / webui / flashUI)
+  Button Start
+  Button Stop
+  etc.
+  
+ Plug in any IControllable object 
+
+ProcController.WithoutUI (Main thread)
+  MsgPump? So it can be hosted in a service  
+  
+IControllable (background or threadpool thread)
+  Run
+  Stop
+  Pause
+  
+  State 
+  IReport
+    Statistics
+    Error
+
+** Simple process
+IRunable
+  Run
+  
+Controller:
+  spawn a thread or use thread pool
+  call run
+
+Code split: keep it simple
+  Simple: Assume many things work right.
+  Advanced: More error tracking, control here.
+    or like threading.
+  
+  class IssueResolverS // simple environment
+  class Advanced: IssueResolverS // Focus on complicated issues.
+  
+Inheritance: 1~3 steps maximum.  
+
+
+Threaded solution:
+  Main (Master) Thread (Process main thread): sleep / wake up / check and work as needed
+  Worker (Slave) Thread (Remember to set background work property)
+  Communication Thread (Optional)
+  

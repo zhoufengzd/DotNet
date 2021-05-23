@@ -1,0 +1,16 @@
+2:32 PM 1/26/2010
+
+It's hard to support multiple platforms.
+Keep focus on SqlServer for now.
+  Though, keep an eye for Oracle.
+
+4:18 PM 11/3/2008
+
+The original intention of the code under this folder was to support multiple DBMS platform.
+
+The code were written in .Net 1.0 time when Generics are not available.
+
+Not quite sure if I am going to extend the code under this folder to 
+replicate ChangeManger / Schema Manager stuff.
+
+Any way, it could be used to build schema dynamically.

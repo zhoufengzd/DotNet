@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFAB8AAF-967B-4364-A44C-068BFD708782}"
+	ProjectSection(SolutionItems) = preProject
+		_Thoughts.txt = _Thoughts.txt
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		Zen.Lib.vsmdi = Zen.Lib.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject", "{26D9BE60-7349-4EC8-838A-527CA9CCC084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.DBMS", "DBMS\Zen.DBMS.csproj", "{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Utilities", "Utilities\Zen.Utilities.csproj", "{C505A649-BE90-4E02-AE73-162697F8BEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{E2D501B2-C635-405E-9210-EF702340B05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.UIControls", "UIControls\Zen.UIControls.csproj", "{1F818512-0936-4239-9867-2BADAA7CE037}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Zen.Lib.vsmdi
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectUniqueName0 = Utilities\\Zen.Utilities.csproj
+		SccProjectName0 = \u0022$/DotNet/Zen.Lib/Utilities\u0022,\u0020KEAAAAAA
+		SccLocalPath0 = Utilities
+		SccProjectUniqueName1 = UIControls\\Zen.UIControls.csproj
+		SccProjectName1 = \u0022$/DotNet/Zen.Lib/UIControls\u0022,\u0020ICAAAAAA
+		SccLocalPath1 = UIControls
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = DBMS\\Zen.DBMS.csproj
+		SccProjectName3 = \u0022$/DotNet/Zen.Lib/DBMS\u0022,\u0020GAAAAAAA
+		SccLocalPath3 = DBMS
+		SccProjectUniqueName4 = TestProject\\TestProject.csproj
+		SccProjectTopLevelParentUniqueName4 = Zen.Lib.sln
+		SccProjectName4 = \u0022$/DotNet/Zen.Lib/TestProject\u0022,\u0020XBAAAAAA
+		SccLocalPath4 = TestProject
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D501B2-C635-405E-9210-EF702340B05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D501B2-C635-405E-9210-EF702340B05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D501B2-C635-405E-9210-EF702340B05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D501B2-C635-405E-9210-EF702340B05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2D501B2-C635-405E-9210-EF702340B05D} = {26D9BE60-7349-4EC8-838A-527CA9CCC084}
+	EndGlobalSection
+EndGlobal

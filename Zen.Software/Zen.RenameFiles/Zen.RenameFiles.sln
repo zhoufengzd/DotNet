@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.RenameFiles", "Zen.RenameFiles.csproj", "{95808D53-8BDB-4994-88B6-7B4037A12720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Utilities", "..\..\Zen.Lib\Utilities\Zen.Utilities.csproj", "{C505A649-BE90-4E02-AE73-162697F8BEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.UIControls", "..\..\Zen.Lib\UIControls\Zen.UIControls.csproj", "{1F818512-0936-4239-9867-2BADAA7CE037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.DBMS", "..\..\Zen.Lib\DBMS\Zen.DBMS.csproj", "{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.FileProcessor", "..\Zen.FileProcessor\Zen.FileProcessor.csproj", "{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = ..\\..\\Zen.Lib\\Utilities\\Zen.Utilities.csproj
+		SccProjectName0 = \u0022$/DotNet/Zen.Lib/Utilities\u0022,\u0020KEAAAAAA
+		SccLocalPath0 = ..\\..\\Zen.Lib\\Utilities
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = ..\\..\\Zen.Lib\\UIControls\\Zen.UIControls.csproj
+		SccProjectName1 = \u0022$/DotNet/Zen.Lib/UIControls\u0022,\u0020ICAAAAAA
+		SccLocalPath1 = ..\\..\\Zen.Lib\\UIControls
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName2 = ..\\..\\Zen.Lib\\DBMS\\Zen.DBMS.csproj
+		SccProjectName2 = \u0022$/DotNet/Zen.Lib/DBMS\u0022,\u0020GAAAAAAA
+		SccLocalPath2 = ..\\..\\Zen.Lib\\DBMS
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName3 = ..\\Zen.FileProcessor\\Zen.FileProcessor.csproj
+		SccProjectName3 = \u0022$/DotNet/Zen.Software/Zen.FileProcessor\u0022,\u0020XJAAAAAA
+		SccLocalPath3 = ..\\Zen.FileProcessor
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

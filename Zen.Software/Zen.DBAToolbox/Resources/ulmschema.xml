@@ -1,0 +1,2214 @@
+<CaseSchema SchemaID="0575f168-221b-47b8-bedb-aa4d7e03db05" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+  <CustomScripts />
+  <SchemaName>ULM</SchemaName>
+  <CaseTables />
+  <GlobalTables>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_ApplicationTypes</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>ApplicationTypeID</ColumnName>
+              <Name>ApplicationTypeID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_ApplicationTypes</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ApplicationTypeID</ColumnName>
+          <Name>ApplicationTypeID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="50" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ApplicationName</ColumnName>
+          <Name>ApplicationName</Name>
+        </Column>
+      </Columns>
+      <TableRows>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationTypeID</Name>
+              <FieldValue>1</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationName</Name>
+              <FieldValue>WebBlaze SSE</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationTypeID</Name>
+              <FieldValue>2</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationName</Name>
+              <FieldValue>iBlaze SSE Network</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationTypeID</Name>
+              <FieldValue>4</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationName</Name>
+              <FieldValue>iBlaze SSE Mobile</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationTypeID</Name>
+              <FieldValue>8</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ApplicationName</Name>
+              <FieldValue>SWAdmin SSE</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+      </TableRows>
+      <TableName>LIC_ApplicationTypes</TableName>
+      <Name>SLT_LIC_ApplicationTypes</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes />
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>SessionID</ColumnName>
+          <Name>SessionID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>CaseName</ColumnName>
+          <Name>CaseName</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>CaseGUID</ColumnName>
+          <Name>CaseGUID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>CIFilePath</ColumnName>
+          <Name>CIFilePath</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>CaseOpenDT</ColumnName>
+          <Name>CaseOpenDT</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>CaseCloseDT</ColumnName>
+          <Name>CaseCloseDT</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_CaseAccessLogs</TableName>
+      <Name>SLT_LIC_CaseAccessLogs</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>ApplicationTypeID</LocalColumn>
+              <ForeignColumn>ApplicationTypeID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_ApplicationTypes</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_ApplicationTypes</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_LoginAttempts_SLT_LIC_ApplicationTypes</ForeignKeyName>
+          <Name>FK_SLT_LIC_LoginAttempts_SLT_LIC_ApplicationTypes</Name>
+        </GlobalForeignKey>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>LoginResultID</LocalColumn>
+              <ForeignColumn>LoginResultID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_LoginResultTypes</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_LoginResultTypes</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_LoginAttempts_SLT_LIC_LoginResultTypes</ForeignKeyName>
+          <Name>FK_SLT_LIC_LoginAttempts_SLT_LIC_LoginResultTypes</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_LoginAttempts</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>LoginAttemptID</ColumnName>
+              <Name>LoginAttemptID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_LoginAttempts</Name>
+        </IndexDef>
+        <IndexDef IndexType="NONCLUSTERED" Category="NORMAL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>CI_IX_SLT_LIC_LoginAttempts_ClientID</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>ApplicationTypeID</ColumnName>
+              <Name>ApplicationTypeID</Name>
+            </IndexColumn>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>ClientIPAddress</ColumnName>
+              <Name>ClientIPAddress</Name>
+            </IndexColumn>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>ClientMachineName</ColumnName>
+              <Name>ClientMachineName</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>CI_IX_SLT_LIC_LoginAttempts_ClientID</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginAttemptID</ColumnName>
+          <Name>LoginAttemptID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginResultID</ColumnName>
+          <Name>LoginResultID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginAttemptDT</ColumnName>
+          <Name>LoginAttemptDT</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ClientMachineName</ColumnName>
+          <Name>ClientMachineName</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="AnsiString" MaxStringLength="15" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ClientIPAddress</ColumnName>
+          <Name>ClientIPAddress</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>UserName</ColumnName>
+          <Name>UserName</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ApplicationTypeID</ColumnName>
+          <Name>ApplicationTypeID</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_LoginAttempts</TableName>
+      <Name>SLT_LIC_LoginAttempts</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="NONCLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_LoginResultTypes</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>LoginResultID</ColumnName>
+              <Name>LoginResultID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_LoginResultTypes</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginResultID</ColumnName>
+          <Name>LoginResultID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="50" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginResult</ColumnName>
+          <Name>LoginResult</Name>
+        </Column>
+      </Columns>
+      <TableRows>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResultID</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResult</Name>
+              <FieldValue>Success</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResultID</Name>
+              <FieldValue>1</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResult</Name>
+              <FieldValue>Failure</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResultID</Name>
+              <FieldValue>3</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="True" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LoginResult</Name>
+              <FieldValue>Insufficient Licenses</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+      </TableRows>
+      <TableName>LIC_LoginResultTypes</TableName>
+      <Name>SLT_LIC_LoginResultTypes</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_Lockouts</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>LockoutID</ColumnName>
+              <Name>LockoutID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_Lockouts</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LockoutID</ColumnName>
+          <Name>LockoutID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="CURRENT_DATE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LockoutDT</ColumnName>
+          <Name>LockoutDT</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>UserName</ColumnName>
+          <Name>UserName</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_Lockouts</TableName>
+      <Name>SLT_LIC_Lockouts</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_LogoutTypes</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>LogoutTypeID</ColumnName>
+              <Name>LogoutTypeID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_LogoutTypes</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LogoutTypeID</ColumnName>
+          <Name>LogoutTypeID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="50" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LogoutTypeName</ColumnName>
+          <Name>LogoutTypeName</Name>
+        </Column>
+      </Columns>
+      <TableRows>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeID</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeName</Name>
+              <FieldValue>Graceful Logout</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeID</Name>
+              <FieldValue>1</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeName</Name>
+              <FieldValue>Killed</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeID</Name>
+              <FieldValue>2</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeName</Name>
+              <FieldValue>Timeout Swept</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeID</Name>
+              <FieldValue>3</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>LogoutTypeName</Name>
+              <FieldValue>Double Login Killed</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+      </TableRows>
+      <TableName>LIC_LogoutTypes</TableName>
+      <Name>SLT_LIC_LogoutTypes</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>SenderUserID</LocalColumn>
+              <ForeignColumn>UserID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Users</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Users</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_Messages_SLT_LIC_Users</ForeignKeyName>
+          <Name>FK_SLT_LIC_Messages_SLT_LIC_Users</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_Messages</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>MessageID</ColumnName>
+              <Name>MessageID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_Messages</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>MessageID</ColumnName>
+          <Name>MessageID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>SenderUserID</ColumnName>
+          <Name>SenderUserID</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>Subject</ColumnName>
+          <Name>Subject</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideCLOB" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>Message</ColumnName>
+          <Name>Message</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>SentDT</ColumnName>
+          <Name>SentDT</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ExpirationDT</ColumnName>
+          <Name>ExpirationDT</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_Messages</TableName>
+      <Name>SLT_LIC_Messages</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_Parameters</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>ParameterID</ColumnName>
+              <Name>ParameterID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_Parameters</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ParameterID</ColumnName>
+          <Name>ParameterID</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ParameterName</ColumnName>
+          <Name>ParameterName</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ParameterValue</ColumnName>
+          <Name>ParameterValue</Name>
+        </Column>
+      </Columns>
+      <TableRows>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>DisableFutureLoginsIBlaze</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>1</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>DisableFutureLoginsWebBlaze</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>2</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>CurrentIBlazeVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>1.0.0.0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>3</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>CurrentWebBlazeVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>2.1.0.187</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>4</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MinimumIBlazeVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>1.0.0.0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>5</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MinimumWebBlazeVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>2.10.0.187</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>6</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>SessionSweeperTimeoutMinutes</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>20</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>7</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>LockoutTimeoutMinutes</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>-1</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>8</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>LoginFailureTimeoutMinutes</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>5</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>9</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MaximumLoginFailures</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>3</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>10</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>SessionLogsClearDaysOld</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>5</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>11</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MessagesClearDaysOld</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>5</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>12</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>IBlazeHeartBeatDelaySeconds</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>30</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>13</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MaxLicenseUsageCount</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>14</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MaxLicenseUsageDateTime</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>15</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>CurrentSWAdminVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>1.0.0.0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>16</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>MinimumSWAdminVersion</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>1.0.0.0</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterID</Name>
+              <FieldValue>17</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterName</Name>
+              <FieldValue>KillRequestClientTimeoutSeconds</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>ParameterValue</Name>
+              <FieldValue>30</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+      </TableRows>
+      <TableName>LIC_Parameters</TableName>
+      <Name>SLT_LIC_Parameters</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>LoginAttemptID</LocalColumn>
+              <ForeignColumn>LoginAttemptID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_LoginAttempts</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_LoginAttempts</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_Sessions_SLT_LIC_LoginAttempts</ForeignKeyName>
+          <Name>FK_SLT_LIC_Sessions_SLT_LIC_LoginAttempts</Name>
+        </GlobalForeignKey>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>LogoutTypeID</LocalColumn>
+              <ForeignColumn>LogoutTypeID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_LogoutTypes</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_LogoutTypes</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_Sessions_SLT_LIC_LogoutTypes</ForeignKeyName>
+          <Name>FK_SLT_LIC_Sessions_SLT_LIC_LogoutTypes</Name>
+        </GlobalForeignKey>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>UserID</LocalColumn>
+              <ForeignColumn>UserID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Users</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Users</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_Sessions_SLT_LIC_Users</ForeignKeyName>
+          <Name>FK_SLT_LIC_Sessions_SLT_LIC_Users</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes>
+        <IndexDef IndexType="NONCLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_Sessions</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>SessionID</ColumnName>
+              <Name>SessionID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_Sessions</Name>
+        </IndexDef>
+        <IndexDef IndexType="NONCLUSTERED" Category="NORMAL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>CI_IX_SLT_LIC_Sessions_LogoutDT</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>LogoutDT</ColumnName>
+              <Name>LogoutDT</Name>
+            </IndexColumn>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>SessionID</ColumnName>
+              <Name>SessionID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>CI_IX_SLT_LIC_Sessions_LogoutDT</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>SessionID</ColumnName>
+          <Name>SessionID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>UserID</ColumnName>
+          <Name>UserID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginAttemptID</ColumnName>
+          <Name>LoginAttemptID</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LogoutDT</ColumnName>
+          <Name>LogoutDT</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LogoutTypeID</ColumnName>
+          <Name>LogoutTypeID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LastTouchedDT</ColumnName>
+          <Name>LastTouchedDT</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_Sessions</TableName>
+      <Name>SLT_LIC_Sessions</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_Users</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>UserID</ColumnName>
+              <Name>UserID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_Users</Name>
+        </IndexDef>
+        <IndexDef IndexType="NONCLUSTERED" Category="UNIQUEKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>UK_SLT_LIC_Users_Username</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>Username</ColumnName>
+              <Name>Username</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>UK_SLT_LIC_Users_Username</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>UserID</ColumnName>
+          <Name>UserID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>UserName</ColumnName>
+          <Name>UserName</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_Users</TableName>
+      <Name>SLT_LIC_Users</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>MessageID</LocalColumn>
+              <ForeignColumn>MessageID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Messages</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Messages</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_UsersXMessages_SLT_LIC_Messages</ForeignKeyName>
+          <Name>FK_SLT_LIC_UsersXMessages_SLT_LIC_Messages</Name>
+        </GlobalForeignKey>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>RecipientUserID</LocalColumn>
+              <ForeignColumn>UserID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Users</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Users</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_UsersXMessages_SLT_LIC_Users</ForeignKeyName>
+          <Name>FK_SLT_LIC_UsersXMessages_SLT_LIC_Users</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes />
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>RecipientUserID</ColumnName>
+          <Name>RecipientUserID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>MessageID</ColumnName>
+          <Name>MessageID</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="DATETIME" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ReadDT</ColumnName>
+          <Name>ReadDT</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_UsersXMessages</TableName>
+      <Name>SLT_LIC_UsersXMessages</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>LoginAttemptID</LocalColumn>
+              <ForeignColumn>LoginAttemptID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_LoginAttempts</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_LoginAttempts</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_WebBlazeLogs_SLT_LIC_LoginAttempts</ForeignKeyName>
+          <Name>FK_SLT_LIC_WebBlazeLogs_SLT_LIC_LoginAttempts</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes />
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>LoginAttemptID</ColumnName>
+          <Name>LoginAttemptID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ServerMachineName</ColumnName>
+          <Name>ServerMachineName</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>ServerIPAddress</ColumnName>
+          <Name>ServerIPAddress</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_WebBlazeLogs</TableName>
+      <Name>SLT_LIC_WebBlazeLogs</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>StatusID</LocalColumn>
+              <ForeignColumn>StatusID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_MobileStatusTypes</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_MobileStatusTypes</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_MobileLicenses_SLT_LIC_MobileStatusTypes</ForeignKeyName>
+          <Name>FK_SLT_LIC_MobileLicenses_SLT_LIC_MobileStatusTypes</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_MobileLicenses</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>InstallCode</ColumnName>
+              <Name>InstallCode</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_MobileLicenses</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="50" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>InstallCode</ColumnName>
+          <Name>InstallCode</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>StatusID</ColumnName>
+          <Name>StatusID</Name>
+        </Column>
+        <Column IsNullable="True" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="255" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>AssignedMachine</ColumnName>
+          <Name>AssignedMachine</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_MobileLicenses</TableName>
+      <Name>SLT_LIC_MobileLicenses</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys />
+      <Indexes>
+        <IndexDef IndexType="CLUSTERED" Category="PRIMARYKEY" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <IndexName>PK_SLT_LIC_MobileStatusTypes</IndexName>
+          <ColumnNames>
+            <IndexColumn Direction="ASCENDING" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <ColumnName>StatusID</ColumnName>
+              <Name>StatusID</Name>
+            </IndexColumn>
+          </ColumnNames>
+          <Name>PK_SLT_LIC_MobileStatusTypes</Name>
+        </IndexDef>
+      </Indexes>
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="Int32" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>StatusID</ColumnName>
+          <Name>StatusID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="WideString" MaxStringLength="50" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>Status</ColumnName>
+          <Name>Status</Name>
+        </Column>
+      </Columns>
+      <TableRows>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>StatusID</Name>
+              <FieldValue>0</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>Status</Name>
+              <FieldValue>Checked In</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+        <TableRow FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <FieldValues>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>StatusID</Name>
+              <FieldValue>1</FieldValue>
+            </TableFieldValue>
+            <TableFieldValue IsNull="False" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <Name>Status</Name>
+              <FieldValue>Checked Out</FieldValue>
+            </TableFieldValue>
+          </FieldValues>
+        </TableRow>
+      </TableRows>
+      <TableName>LIC_MobileStatusTypes</TableName>
+      <Name>SLT_LIC_MobileStatusTypes</Name>
+    </GlobalTableDef>
+    <GlobalTableDef FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <GlobalTableForeignKeys>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>RequestedSessionID</LocalColumn>
+              <ForeignColumn>SessionID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Sessions</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Sessions</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_KillRequests_SLT_LIC_Sessions</ForeignKeyName>
+          <Name>FK_SLT_LIC_KillRequests_SLT_LIC_Sessions</Name>
+        </GlobalForeignKey>
+        <GlobalForeignKey FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <Columns>
+            <ForeignKeyColumn FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+              <LocalColumn>RequestorUserID</LocalColumn>
+              <ForeignColumn>UserID</ForeignColumn>
+            </ForeignKeyColumn>
+          </Columns>
+          <ForeignTable>SLT_LIC_Users</ForeignTable>
+          <PhysicalForeignTable>SLT_SLT_LIC_Users</PhysicalForeignTable>
+          <ForeignKeyName>FK_SLT_LIC_KillRequests_SLT_LIC_Users</ForeignKeyName>
+          <Name>FK_SLT_LIC_KillRequests_SLT_LIC_Users</Name>
+        </GlobalForeignKey>
+      </GlobalTableForeignKeys>
+      <Indexes />
+      <Roles />
+      <Columns>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>RequestorUserID</ColumnName>
+          <Name>RequestorUserID</Name>
+        </Column>
+        <Column IsNullable="False" IsFullTextIndexed="False" DataType="GUID" MaxStringLength="0" DefaultValue="NULL" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+          <ColumnName>RequestedSessionID</ColumnName>
+          <Name>RequestedSessionID</Name>
+        </Column>
+      </Columns>
+      <TableRows />
+      <TableName>LIC_KillRequests</TableName>
+      <Name>SLT_LIC_KillRequests</Name>
+    </GlobalTableDef>
+  </GlobalTables>
+  <SQLStoredProcedures>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetParameterValue</ProcName>
+      <ProcedureText>SELECT @ParameterValue = ParameterValue
+FROM [dbo].[SLT_LIC_Parameters]
+WHERE ParameterID = @ParameterID</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ParameterID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ParameterValue</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetParameterValue]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_SetParameterValue</ProcName>
+      <ProcedureText>UPDATE [dbo].[SLT_LIC_Parameters]
+SET ParameterValue = @ParameterValue
+WHERE ParameterID = @ParameterID</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ParameterID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ParameterValue</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_SetParameterValue]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_UpdateMaxLicenseUsage</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+	-- set the max license usage count
+	DECLARE @SessionCount int
+	SELECT @SessionCount = COUNT(*)
+	FROM [dbo].[SLT_LIC_Sessions]
+	WHERE LogoutDT IS NULL
+
+	DECLARE @bUpdated bit
+	SET @bUpdated = 0
+
+	UPDATE [dbo].[SLT_LIC_Parameters]
+	SET @bUpdated = 1, ParameterValue = LTRIM(RTRIM(STR(@SessionCount)))
+	WHERE @SessionCount &gt; CAST(ParameterValue AS int) AND ParameterID = 13 /* 13 = MaxLicenseUsageCount */
+
+	UPDATE [dbo].[SLT_LIC_Parameters]
+	SET ParameterValue = GetDate()
+	WHERE @bUpdated = 1 AND ParameterID = 14 /* 14 = MaxLicenseUsageDateTime */
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_UpdateMaxLicenseUsage]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_RecordLoginSuccess</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+SET @SessionID = NULL
+SET @ErrorCode = 0
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+IF ( @LoginResult = 0 ) -- Success = 0 - "double login kill" a session on successful login of new session
+BEGIN
+	UPDATE S1
+	SET LogoutDT = @ActionDT, LogoutTypeID = 3 /* Double Login Killed = 3 */, LastTouchedDT = @ActionDT
+	FROM [dbo].[SLT_LIC_Sessions] S1, [dbo].[SLT_LIC_Users] U1, [dbo].[SLT_LIC_LoginAttempts] LA1
+	WHERE S1.LoginAttemptID = LA1.LoginAttemptID
+	AND U1.UserID = S1.UserID
+	AND U1.UserName = @UserName
+	AND S1.LogoutDT IS NULL
+	AND LA1.ClientIPAddress = @ClientIP
+	AND LA1.ClientMachineName = @ClientMachine
+	AND LA1.ApplicationTypeID = @AppType
+
+	-- make sure we clean up the kill requests table
+	DELETE FROM [dbo].[SLT_LIC_KillRequests]
+	WHERE RequestedSessionID IN (
+		SELECT SessionID
+		FROM [dbo].[SLT_LIC_Sessions]
+		WHERE LogoutDT IS NOT NULL )
+END
+
+-- Are there any licenses avialable for this user to log in? - ignore iBlaze SSE Mobile &amp; SWAdmin SSE
+DECLARE @TempSessions INT
+SELECT @TempSessions = COUNT(*)
+FROM [dbo].[SLT_LIC_Sessions] S1 INNER JOIN
+	[dbo].[SLT_LIC_LoginAttempts] LA1 ON S1.LoginAttemptID = LA1.LoginAttemptID
+WHERE ( S1.LogoutDT IS NULL
+	AND ( LA1.ApplicationTypeID = 1 /* WebBlaze SSE */
+		OR LA1.ApplicationTypeID = 2 /* iBlaze SSE Network */ ) )
+-- only return insufficient licenses for WB and IB Network
+IF @AppType = 1 /* WebBlaze SSE */ OR @AppType = 2 /* iBlaze SSE Network */
+BEGIN
+	IF @TempSessions &gt;= @TotalLicenses
+	BEGIN
+		ROLLBACK TRAN
+		SET @ErrorCode = 234
+		RETURN
+	END
+END
+
+-- now record the login attempt
+DECLARE @LoginAttemptID uniqueidentifier
+SET @LoginAttemptID = NewID()
+INSERT INTO [dbo].[SLT_LIC_LoginAttempts] ( LoginAttemptID, UserName, LoginAttemptDT, ClientMachineName, ClientIPAddress, ApplicationTypeID, LoginResultID )
+SELECT @LoginAttemptID, CASE @LoginResult WHEN 0 /* Success = 0 */ THEN NULL ELSE @UserName END,
+	@ActionDT, @ClientMachine, @ClientIP, @AppType, @LoginResult
+
+IF @@ERROR = 0
+BEGIN
+	IF ( @ServerIP &lt;&gt; '' AND @ServerMachine &lt;&gt; '' )
+	BEGIN
+		INSERT INTO [dbo].[SLT_LIC_WebBlazeLogs] ( LoginAttemptID, ServerMachineName, ServerIPAddress )
+		VALUES( @LoginAttemptID, @ServerMachine, @ServerIP )
+	END
+END
+
+DECLARE @UserID uniqueidentifier
+
+IF @@ERROR = 0
+BEGIN
+	IF ( @LoginResult = 0 )	-- Success = 0
+	BEGIN
+		SET @UserID = NewID()
+		-- add record to users (if necessary) and sessions
+		INSERT INTO [dbo].[SLT_LIC_Users] ( UserID, UserName )
+		SELECT @UserID, @UserName
+		WHERE NOT EXISTS ( SELECT * FROM [dbo].[SLT_LIC_Users] (UPDLOCK) WHERE UserName = @UserName )
+
+		IF @@ERROR = 0
+		BEGIN
+			SET @SessionID = NewID()
+		
+			INSERT INTO [dbo].[SLT_LIC_Sessions] ( SessionID, UserID, LoginAttemptID, LastTouchedDT )
+			SELECT @SessionID, UserID, @LoginAttemptID, @ActionDT
+			FROM [dbo].[SLT_LIC_Users] WHERE UserName = @UserName
+		END
+
+		-- set the max license usage count
+		EXEC dbo.slsp_UpdateMaxLicenseUsage
+	END
+END
+
+IF @@ERROR = 0
+BEGIN
+	COMMIT TRAN
+END
+ELSE
+BEGIN
+	SET @SessionID = NULL
+	ROLLBACK TRAN
+END
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@TotalLicenses</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@UserName</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ClientIP</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ClientMachine</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@AppType</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@LoginResult</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ServerIP</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ServerMachine</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ErrorCode</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_RecordLoginSuccess]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_RecordLoginFailure</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+DECLARE @LockoutTimeout INT
+DECLARE @FailureTimeout INT
+DECLARE @MaxFailures INT
+DECLARE @TempVal NVARCHAR( 255 )
+EXEC [dbo].[slsp_GetParameterValue] 7 /* LockoutTimeoutMinutes = 7 */, @TempVal OUTPUT
+SET @LockoutTimeout = CAST( @TempVal AS INT )
+EXEC [dbo].[slsp_GetParameterValue] 8 /* LoginFailureTimeoutMinutes = 8 */, @TempVal OUTPUT
+SET @FailureTimeout = CAST( @TempVal AS INT )
+EXEC [dbo].[slsp_GetParameterValue] 9 /* MaximumLoginFailures = 9 */, @TempVal OUTPUT
+SET @MaxFailures = CAST( @TempVal AS INT )
+
+DECLARE @LoginAttemptID uniqueidentifier
+SET @LoginAttemptID = NewID()
+INSERT INTO [dbo].[SLT_LIC_LoginAttempts] ( LoginAttemptID, UserName, LoginAttemptDT, ClientMachineName, ClientIPAddress, ApplicationTypeID, LoginResultID )
+VALUES ( @LoginAttemptID, CASE @LoginResult WHEN 0 /* Success = 0 */ THEN NULL ELSE @UserName END,
+	@ActionDT, @ClientMachine, @ClientIP, @AppType, @LoginResult )
+
+IF @@ERROR = 0
+BEGIN
+	IF ( @ServerIP &lt;&gt; '' AND @ServerMachine &lt;&gt; '' )
+	BEGIN
+		INSERT INTO [dbo].[SLT_LIC_WebBlazeLogs] ( LoginAttemptID, ServerMachineName, ServerIPAddress )
+		VALUES( @LoginAttemptID, @ServerMachine, @ServerIP )
+	END
+END
+
+IF @@ERROR = 0
+BEGIN
+	-- if the user fails login @MaxFailures times within @FailureTimeout minutes, lock them out for @LockoutTimeout minutes
+	INSERT INTO [dbo].[SLT_LIC_Lockouts] ( LockoutID, LockoutDT, UserName )
+	SELECT NewID(), @ActionDT, @UserName
+	FROM ( SELECT UserName FROM [dbo].[SLT_LIC_LoginAttempts]
+		WHERE UserName = @UserName
+			AND DATEDIFF( minute, LoginAttemptDT, @ActionDT ) &lt; @FailureTimeout
+			AND LoginResultID = 1 /* Failure = 1 */
+		GROUP BY UserName
+		HAVING COUNT(*) &gt;= @MaxFailures ) X1
+	WHERE NOT EXISTS ( SELECT * FROM [dbo].[SLT_LIC_Lockouts] WHERE UserName = @UserName )
+END
+
+IF @@ERROR = 0
+BEGIN
+	COMMIT TRAN
+END
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@Username</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ClientIP</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ClientMachine</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@AppType</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@LoginResult</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ServerIP</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ServerMachine</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_RecordLoginFailure]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_Logout</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+-- update CaseAccessLogs.CaseCloseDT
+UPDATE [dbo].[SLT_LIC_CaseAccessLogs]
+SET CaseCloseDT = @ActionDT
+WHERE SessionID = @SessionID
+
+-- update Sessions.LogoutDT
+UPDATE [dbo].[SLT_LIC_Sessions]
+SET LogoutDT = @ActionDT, LastTouchedDT = @ActionDT, LogoutTypeID = 0 /* Graceful Logout = 0 */
+WHERE SessionID = @SessionID
+
+-- make sure we clean up the kill requests table
+DELETE FROM [dbo].[SLT_LIC_KillRequests]
+WHERE RequestedSessionID = @SessionID
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_Logout]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_OpenCase</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @CaseActionDT DATETIME
+SET @CaseActionDT = GetDate()
+
+-- close any previously open cases for this session (only one case open at a time)
+UPDATE [dbo].[SLT_LIC_CaseAccessLogs]
+SET CaseCloseDT = @CaseActionDT
+WHERE SessionID = @SessionID
+
+-- create a new case for this session
+INSERT INTO [dbo].[SLT_LIC_CaseAccessLogs] ( SessionID, CaseName, CaseGUID, CIFilePath, CaseOpenDT )
+VALUES ( @SessionID, @CaseName, @CaseGUID, @ciFilePath, @CaseActionDT )
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@CaseGUID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ciFilePath</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@CaseName</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_OpenCase]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetNewMessageCount</ProcName>
+      <ProcedureText>SELECT @NewMessageCount = COUNT( * )
+FROM [dbo].[SLT_LIC_Sessions] S1
+	INNER JOIN [dbo].[SLT_LIC_UsersXMessages] X1 ON S1.UserID = X1.RecipientUserID
+WHERE S1.SessionID = @SessionID AND X1.ReadDT IS NULL
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@NewMessageCount</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetNewMessageCount]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_TouchSessionIsValid</ProcName>
+      <ProcedureText>DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+SET @bValid = 0
+
+-- update Sessions.LastTouchedDT
+UPDATE [dbo].[SLT_LIC_Sessions]
+SET LastTouchedDT = @ActionDT, @bValid = 1
+WHERE SessionID = @SessionID AND LogoutDT IS NULL</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Bit" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@bValid</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_TouchSessionIsValid]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_TouchSession</ProcName>
+      <ProcedureText>DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+DECLARE @bValid bit
+SET @bValid = 0
+DECLARE @LogoutType INT
+SET @LogoutType = 0	/* 0 = Graceful Logout */
+
+SET NOCOUNT ON
+
+-- update Sessions.LastTouchedDT
+UPDATE [dbo].[SLT_LIC_Sessions]
+SET LastTouchedDT = @ActionDT, @bValid = 1
+WHERE SessionID = @SessionID AND LogoutDT IS NULL
+
+-- if the session has been invalidated, how was it invalidated? (LogoutTypeEnum)
+IF @bValid = 0
+BEGIN
+	SELECT @LogoutType = LogoutTypeID
+	FROM [dbo].[SLT_LIC_Sessions]
+	WHERE SessionID = @SessionID
+END
+
+-- any new messages?
+DECLARE @bNewMessages bit
+DECLARE @NewMessageCount int
+EXEC dbo.slsp_GetNewMessageCount @SessionID, @NewMessageCount OUTPUT
+SET @bNewMessages = CASE @NewMessageCount WHEN 0 THEN 0 ELSE 1 END
+
+-- kill session requests?
+DECLARE @bKillSessionRequested bit
+SET @bKillSessionRequested = 0
+SELECT @bKillSessionRequested = 1
+FROM [dbo].[SLT_LIC_KillRequests]
+WHERE EXISTS (
+	SELECT *
+	FROM [dbo].[SLT_LIC_KillRequests]
+	WHERE RequestedSessionID = @SessionID )
+
+SET NOCOUNT OFF
+
+-- now roll it all up into a one row recordset
+SELECT @bValid 'ValidSession', @LogoutType 'LogoutTypeID', @bNewMessages 'NewMessages', @bKillSessionRequested 'KillSessionRequested'
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_TouchSession]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetKillSessionRequestor</ProcName>
+      <ProcedureText>DECLARE @RequestorUserName nvarchar( 255 )
+DECLARE @RequestorSessionID uniqueidentifier
+
+SELECT @RequestorSessionID = S1.SessionID, @RequestorUserName = U1.UserName
+FROM [dbo].[SLT_LIC_KillRequests] K1 INNER JOIN
+	[dbo].[SLT_LIC_Users] U1 ON K1.RequestorUserID = U1.UserID INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON K1.RequestorUserID = S1.UserID
+WHERE EXISTS (
+	SELECT *
+	FROM [dbo].[SLT_LIC_KillRequests]
+	WHERE RequestedSessionID = @SessionID )
+
+-- now roll it all up into a one row recordset
+SELECT @RequestorUserName 'RequestorUserName', @RequestorSessionID 'RequestorSessionID'
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetKillSessionRequestor]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetSessions</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+-- doing it this way (use a view and if/elseif/else) to avoid dynamic SQL and to allow index optimization
+IF @SortItem = 1 /* SortClientMachineName = 1 */
+BEGIN
+	IF @SortOrder = 0
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY ClientMachineName ASC
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY ClientMachineName DESC
+	END
+END
+ELSE IF @SortItem = 2 /* SortCaseName = 2 */
+BEGIN
+	IF @SortOrder = 0
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY CaseName ASC
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY CaseName DESC
+	END
+END
+ELSE IF @SortItem = 3 /* SortLoggedInDT = 3 */
+BEGIN
+	IF @SortOrder = 0
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY LoginDT ASC
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY LoginDT DESC
+	END
+END
+ELSE IF @SortItem = 4 /* SortTouchedDT = 4 */
+BEGIN
+	IF @SortOrder = 0
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY LastTouchedDT ASC
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY LastTouchedDT DESC
+	END
+END
+ELSE	-- default to order by username /* SortUserName = 0 */
+BEGIN
+	IF @SortOrder = 0
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY UserName ASC
+	END
+	ELSE
+	BEGIN
+		SELECT * FROM [dbo].[SLT_LIC_VW_SessionItems]
+		WHERE ApplicationTypeID &amp; @AppType &gt; 0
+		ORDER BY UserName DESC
+	END
+END
+
+COMMIT TRAN</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@AppType</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SortItem</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SortOrder</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetSessions]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_KillSession</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+EXEC dbo.slsp_Logout @SessionID
+
+-- update the sessions table with the proper logout type id (killed instead of graceful logout)
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+UPDATE [dbo].[SLT_LIC_Sessions]
+SET LogoutDT = @ActionDT, LastTouchedDT = @ActionDT, LogoutTypeID = 1 /* Killed = 1 */
+WHERE SessionID = @SessionID
+
+COMMIT TRAN</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_KillSession]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_SendKillSessionRequest</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @UserID uniqueidentifier
+SELECT @UserID = UserID
+FROM [dbo].[SLT_LIC_Sessions]
+WHERE SessionID = @RequestorSessionID
+
+INSERT INTO [dbo].[SLT_LIC_KillRequests] ( RequestorUserID, RequestedSessionID )
+VALUES ( @UserID, @RequestedSessionID )
+
+COMMIT TRAN</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@RequestorSessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@RequestedSessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_SendKillSessionRequest]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_ClearKillSessionRequest</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DELETE FROM [dbo].[SLT_LIC_KillRequests] WHERE RequestedSessionID = @SessionID
+
+COMMIT TRAN</ProcedureText>
+      <Roles />
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_ClearKillSessionRequest]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetCaseAccessLog</ProcName>
+      <ProcedureText>SELECT U1.UserName, C1.CaseName, C1.CaseGUID, C1.CIFilePath, C1.CaseOpenDT, C1.CaseCloseDT, L1.ApplicationTypeID
+FROM [dbo].[SLT_LIC_Users] U1 INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID INNER JOIN
+	[dbo].[SLT_LIC_CaseAccessLogs] C1 ON S1.SessionID = C1.SessionID INNER JOIN
+	[dbo].[SLT_LIC_LoginAttempts] L1 ON S1.LoginAttemptID = L1.LoginAttemptID
+ORDER BY C1.CaseOpenDT DESC</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_GetCaseAccessLog]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetLoginLog</ProcName>
+      <ProcedureText>SELECT ISNULL( L1.UserName, U1.UserName ) AS UserName,
+L1.LoginAttemptDT, S1.LogoutDT, L1.LoginResultID, L1.ApplicationTypeID, L1.ClientMachineName, L1.ClientIPAddress, W1.ServerMachineName, W1.ServerIPAddress
+FROM [dbo].[SLT_LIC_LoginAttempts] L1 LEFT OUTER JOIN
+	[dbo].[SLT_LIC_WebBlazeLogs] W1 ON L1.LoginAttemptID = W1.LoginAttemptID LEFT OUTER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON L1.LoginAttemptID = S1.LoginAttemptID LEFT OUTER JOIN
+	[dbo].[SLT_LIC_Users] U1 ON S1.UserID = U1.UserID
+ORDER BY L1.LoginAttemptDT DESC</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_GetLoginLog]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetLockedOutUsers</ProcName>
+      <ProcedureText>SELECT LO1.UserName, L1.LoginAttemptDT, L1.LoginResultID, L1.ApplicationTypeID, L1.ClientMachineName, L1.ClientIPAddress, W1.ServerMachineName, W1.ServerIPAddress
+FROM [dbo].[SLT_LIC_Lockouts] LO1 INNER JOIN
+	[dbo].[SLT_LIC_LoginAttempts] L1 ON LO1.UserName = L1.UserName LEFT OUTER JOIN
+	[dbo].[SLT_LIC_WebBlazeLogs] W1 ON L1.LoginAttemptID = W1.LoginAttemptID
+WHERE LO1.LockoutDT = L1.LoginAttemptDT
+ORDER BY L1.LoginAttemptDT Desc
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_GetLockedOutUsers]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_ClearLockedOutUser</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DELETE FROM [dbo].[SLT_LIC_Lockouts]
+WHERE UserName = @UserName
+
+COMMIT TRAN</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@UserName</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_ClearLockedOutUser]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_IsUserLockedOut</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+SET @bLockedOut = 0
+
+SELECT @bLockedOut = 1
+FROM [dbo].[SLT_LIC_Lockouts]
+WHERE UserName = @UserName
+
+COMMIT TRAN</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@UserName</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Bit" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@bLockedOut</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_IsUserLockedOut]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetMessages</ProcName>
+      <ProcedureText>SELECT M1.MessageID, U2.UserName as SenderUserName, M1.Subject, M1.SentDT, X1.ReadDT
+FROM [dbo].[SLT_LIC_Messages] M1 INNER JOIN
+	[dbo].[SLT_LIC_UsersXMessages] X1 ON M1.MessageID = X1.MessageID INNER JOIN
+	[dbo].[SLT_LIC_Users] U1 ON X1.RecipientUserID = U1.UserID INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID INNER JOIN
+	[dbo].[SLT_LIC_Users] U2 ON M1.SenderUserID = U2.UserID
+WHERE S1.SessionID = @SessionID
+ORDER BY M1.SentDT</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetMessages]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_SendMessage</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @SenderUserID uniqueidentifier
+DECLARE @RecipientUserID uniqueidentifier
+-- get the sender user id
+SELECT @SenderUserID = U1.UserID
+FROM [dbo].[SLT_LIC_Users] U1 INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID
+WHERE S1.SessionID = @FromSessionID
+-- get the recipient user id
+SELECT @RecipientUserID = U1.UserID
+FROM [dbo].[SLT_LIC_Users] U1 INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID
+WHERE S1.SessionID = @ToSessionID
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+SET @MessageID = NewID()
+
+INSERT INTO [dbo].[SLT_LIC_Messages] ( MessageID, SenderUserID, Subject, Message, SentDT )
+VALUES( @MessageID, @SenderUserID, @Subject, @Message, @ActionDT )
+
+INSERT INTO [dbo].[SLT_LIC_UsersXMessages] ( RecipientUserID, MessageID )
+VALUES( @RecipientUserID, @MessageID )
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@FromSessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ToSessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@Subject</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="WideString" StringLength="255" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@Message</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@MessageID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_SendMessage]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_AddMessageRecipient</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @RecipientUserID uniqueidentifier
+-- get the recipient user id
+SELECT @RecipientUserID = U1.UserID
+FROM [dbo].[SLT_LIC_Users] U1 INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID
+WHERE S1.SessionID = @ToSessionID
+
+INSERT INTO [dbo].[SLT_LIC_UsersXMessages] ( RecipientUserID, MessageID )
+VALUES( @RecipientUserID, @MessageID )
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@MessageID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@ToSessionID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_AddMessageRecipient]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetMessage</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+SELECT M1.Subject, M1.Message, M1.SentDT, M1.ExpirationDT, X1.ReadDT, U1.UserName as RecipientUserName, S1.UserID as RecipientSessionID, U2.UserName as SenderUserName, S2.UserID as SenderSessionID
+FROM [dbo].[SLT_LIC_Messages] M1 INNER JOIN
+	[dbo].[SLT_LIC_UsersXMessages] X1 ON M1.MessageID = X1.MessageID INNER JOIN
+	[dbo].[SLT_LIC_Users] U1 ON X1.RecipientUserID = U1.UserID INNER JOIN
+	[dbo].[SLT_LIC_Users] U2 ON M1.SenderUserID = U2.UserID INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 ON U1.UserID = S1.UserID INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S2 ON U2.UserID = S2.UserID
+WHERE M1.MessageID = @MessageID
+
+UPDATE X1 SET ReadDT = GetDate()
+FROM [dbo].[SLT_LIC_UsersXMessages] X1 INNER JOIN
+	[dbo].[SLT_LIC_Sessions] S1 on X1.RecipientUserID = S1.UserID
+WHERE S1.SessionID = @SessionID
+	AND X1.ReadDT IS NULL
+	AND X1.MessageID = @MessageID
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@SessionID</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="GUID" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@MessageID</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_GetMessage]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_GetParameters</ProcName>
+      <ProcedureText>SELECT *
+FROM [dbo].[SLT_LIC_Parameters]
+ORDER BY ParameterID</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_GetParameters]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_SessionSweeper</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @Minutes INT
+DECLARE @TempVal NVARCHAR( 255 )
+EXEC dbo.slsp_GetParameterValue 6 /* SessionSweeperTimeoutMinutes = 6 */, @TempVal OUTPUT 
+
+SET @Minutes = CAST( @TempVal AS INT )
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+UPDATE [dbo].[SLT_LIC_Sessions]
+SET LogoutDT = @ActionDT, LastTouchedDT = @ActionDT, LogoutTypeID = 2 /* TimeoutSwept = 2 */
+WHERE LastTouchedDT &lt; DATEADD( minute, -@Minutes, @ActionDT ) AND LogoutDT IS NULL
+
+UPDATE [dbo].[SLT_LIC_CaseAccessLogs]
+SET CaseCloseDT = @ActionDT
+WHERE CaseCloseDT IS NULL AND SessionID IN (
+	SELECT SessionID
+	FROM [dbo].[SLT_LIC_Sessions]
+	WHERE LogoutDT IS NOT NULL )
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_SessionSweeper]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_LogsSweeper</ProcName>
+      <ProcedureText>BEGIN TRAN
+
+DECLARE @SessionsDays INT
+DECLARE @MessagesDays INT
+DECLARE @TempVal NVARCHAR( 255 )
+EXEC dbo.slsp_GetParameterValue 10 /* SessionLogsClearDaysOld = 10 */, @TempVal OUTPUT 
+SET @SessionsDays = CAST( @TempVal AS INT )
+EXEC dbo.slsp_GetParameterValue 11 /* MessagesClearDaysOld = 11 */, @TempVal OUTPUT 
+SET @MessagesDays = CAST( @TempVal AS INT )
+
+DECLARE @ActionDT DATETIME
+SET @ActionDT = GetDate()
+
+DECLARE @TempSessionDT DATETIME
+SET @TempSessionDT = DATEADD( day, -@SessionsDays, @ActionDT )
+
+DECLARE @TempMessageDT DATETIME
+SET @TempMessageDT = DATEADD( day, -@MessagesDays, @ActionDT )
+
+DELETE FROM [dbo].[SLT_LIC_UsersXMessages]
+WHERE MessageID IN ( 
+	SELECT MessageID
+	FROM [dbo].[SLT_LIC_Messages]
+	WHERE SentDT &lt; @TempMessageDT )
+
+DELETE FROM [dbo].[SLT_LIC_Messages]
+WHERE SentDT &lt; @TempMessageDT
+
+DELETE FROM [dbo].[SLT_LIC_CaseAccessLogs]
+WHERE SessionID IN (
+	SELECT SessionID
+	FROM [dbo].[SLT_LIC_Sessions]
+	WHERE LogoutDT &lt; @TempSessionDT )
+
+DELETE FROM [dbo].[SLT_LIC_KillRequests]
+WHERE RequestedSessionID IN (
+	SELECT SessionID
+	FROM [dbo].[SLT_LIC_Sessions]
+	WHERE LogoutDT &lt; @TempSessionDT )
+
+DELETE FROM [dbo].[SLT_LIC_Sessions]
+WHERE LogoutDT &lt; @TempSessionDT
+
+DELETE FROM [dbo].[SLT_LIC_WebBlazeLogs]
+WHERE LoginAttemptID NOT IN (
+	SELECT LoginAttemptID
+	FROM [dbo].[SLT_LIC_Sessions] )
+
+DELETE FROM [dbo].[SLT_LIC_LoginAttempts]
+WHERE ( UserName IS NULL AND LoginAttemptID NOT IN (
+	SELECT LoginAttemptID
+	FROM [dbo].[SLT_LIC_Sessions] ) OR
+	( UserName IS NOT NULL AND LoginAttemptDT &lt; @TempSessionDT ) )
+
+COMMIT TRAN
+</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingAdmin</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters />
+      <Name>[dbo].[slsp_LogsSweeper]</Name>
+    </SQLStoredProcedure>
+    <SQLStoredProcedure FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <ProcName>slsp_CheckSchemaCompatibility</ProcName>
+      <ProcedureText>SELECT @bCompatible = 1
+FROM [dbo].[SLT_LIC_SchemaVersion]
+WHERE MajorVer = @iMajorVer
+	AND MinorVer = @iMinorVer
+	AND NOT EXISTS ( SELECT * FROM [dbo].[SLT_LIC_SchemaVersion] WHERE
+			MajorVer &gt; @iMajorVer OR ( MajorVer = @iMajorVer AND MinorVer &gt; @iMinorVer ) )
+
+IF ( @bCompatible IS NULL )
+BEGIN
+	SET @bCompatible = 0
+END</ProcedureText>
+      <Roles>
+        <SQLRoleAssignment GrantAssignments="EXEC" DenyAssignments="NONE" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Role>SLT_LicensingUser</Role>
+        </SQLRoleAssignment>
+      </Roles>
+      <Parameters>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@iMajorVer</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Int32" StringLength="0" ParameterDirection="INPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@iMinorVer</Name>
+        </SQLStoredProcedureParameter>
+        <SQLStoredProcedureParameter DataType="Bit" StringLength="0" ParameterDirection="OUTPUT" FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+          <Name>@bCompatible</Name>
+        </SQLStoredProcedureParameter>
+      </Parameters>
+      <Name>[dbo].[slsp_CheckSchemaCompatibility]</Name>
+    </SQLStoredProcedure>
+  </SQLStoredProcedures>
+  <Roles>
+    <SQLRole FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <RoleName>SLT_LicensingUser</RoleName>
+      <Name>SLT_LicensingUser</Name>
+    </SQLRole>
+    <SQLRole FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALLSQL">
+      <RoleName>SLT_LicensingAdmin</RoleName>
+      <Name>SLT_LicensingAdmin</Name>
+    </SQLRole>
+  </Roles>
+  <Views>
+    <View FirstMajorVersion="1" FirstMinorVersion="3" LastMajorVersion="1" LastMinorVersion="12" PlatformBitmask="ALL">
+      <ViewName>SLT_LIC_VW_SessionItems</ViewName>
+      <ViewText>SELECT S1.SessionID, U1.UserName, C1.CaseName,
+            L1.ClientMachineName, L1.ClientIPAddress,
+            W1.ServerMachineName, W1.ServerIPAddress,
+            S1.LastTouchedDT, L1.LoginAttemptDT as LoginDT,
+            L1.ApplicationTypeID
+FROM [dbo].[SLT_LIC_Sessions] S1 INNER JOIN
+            [dbo].[SLT_LIC_Users] U1 ON S1.UserID = U1.UserID LEFT OUTER JOIN
+            [dbo].[SLT_LIC_CaseAccessLogs] C1 ON S1.SessionID = C1.SessionID INNER JOIN
+            [dbo].[SLT_LIC_LoginAttempts] L1 ON S1.LoginAttemptID = L1.LoginAttemptID LEFT OUTER JOIN
+            [dbo].[SLT_LIC_WebBlazeLogs] W1 ON L1.LoginAttemptID = W1.LoginAttemptID
+WHERE ( S1.LogoutDT IS NULL AND C1.CaseCloseDT IS NULL )</ViewText>
+      <Roles />
+      <Name>SLT_LIC_VW_SessionItems</Name>
+    </View>
+  </Views>
+  <SQLUserDefinedFunctions />
+  <Name>ULM</Name>
+</CaseSchema>

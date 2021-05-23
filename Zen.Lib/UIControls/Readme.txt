@@ -1,0 +1,1 @@
+UPdate this project to support run any sql script defined in a config file.

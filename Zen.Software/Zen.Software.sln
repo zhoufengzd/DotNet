@@ -1,0 +1,168 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Simulator", "Zen.Simulator\Zen.Simulator.csproj", "{F3A16B0B-CC1C-4588-A843-3E7F7DF948FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.ServiceController", "Zen.ServiceController\Zen.ServiceController.csproj", "{FBB339A0-B736-483A-9BC1-44188260B58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Scheduler", "Zen.Scheduler\Zen.Scheduler.csproj", "{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.OcrExecutor", "Zen.OCRService\Zen.OcrExecutor.csproj", "{DBDFFD13-59AA-4EF1-87DB-DC7F56F1EDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.LaunchPad", "Zen.LaunchPad\Zen.LaunchPad.csproj", "{7AE9E8F3-AD40-446B-BE1C-5D1DA552BBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.RenameFiles", "Zen.RenameFiles\Zen.RenameFiles.csproj", "{95808D53-8BDB-4994-88B6-7B4037A12720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.FileProcessor", "Zen.FileProcessor\Zen.FileProcessor.csproj", "{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.DirectoryMonitor", "Zen.DirectoryMonitor\Zen.DirectoryMonitor.csproj", "{705C5A63-ECEA-4588-93E2-2EFCB0788162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Cassini", "Zen.Cassini\Cassini\Zen.Cassini.csproj", "{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zen.Lib", "Zen.Lib", "{F96DD49E-B430-4669-96F1-FD9F3977ADAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.UIControls", "..\Zen.Lib\UIControls\Zen.UIControls.csproj", "{1F818512-0936-4239-9867-2BADAA7CE037}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6} = {8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Utilities", "..\Zen.Lib\Utilities\Zen.Utilities.csproj", "{C505A649-BE90-4E02-AE73-162697F8BEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.DBMS", "..\Zen.Lib\DBMS\Zen.DBMS.csproj", "{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModiLib", "Zen.OCRService\ModiLib\ModiLib.csproj", "{357F78E0-53E5-4004-B6CC-DAD134923E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.DBAToolbox", "Zen.DBAToolbox\Zen.DBAToolbox.csproj", "{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Common.Def", "..\Zen.Lib\Zen.Common.Def\Zen.Common.Def.csproj", "{86162620-1DA6-4292-A3CD-4763D4C7EA36}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Zen.Simulator\\Zen.Simulator.csproj
+		SccProjectName1 = \u0022$/DotNet/Zen.Software/Zen.Simulator\u0022,\u0020XQAAAAAA
+		SccLocalPath1 = Zen.Simulator
+		SccProjectUniqueName2 = Zen.LaunchPad\\Zen.LaunchPad.csproj
+		SccProjectName2 = \u0022$/DotNet/Zen.Software/Zen.LaunchPad\u0022,\u0020OKAAAAAA
+		SccLocalPath2 = Zen.LaunchPad
+		SccProjectUniqueName3 = Zen.FileProcessor\\Zen.FileProcessor.csproj
+		SccProjectName3 = \u0022$/DotNet/Zen.Software/Zen.FileProcessor\u0022,\u0020XJAAAAAA
+		SccLocalPath3 = Zen.FileProcessor
+		SccProjectUniqueName4 = Zen.DirectoryMonitor\\Zen.DirectoryMonitor.csproj
+		SccProjectName4 = \u0022$/DotNet/Zen.Software/Zen.DirectoryMonitor\u0022,\u0020MJAAAAAA
+		SccLocalPath4 = Zen.DirectoryMonitor
+		SccProjectUniqueName5 = ..\\Zen.Lib\\UIControls\\Zen.UIControls.csproj
+		SccProjectTopLevelParentUniqueName5 = Zen.Software.sln
+		SccProjectName5 = \u0022$/DotNet/Zen.Lib/UIControls\u0022,\u0020ICAAAAAA
+		SccLocalPath5 = ..\\Zen.Lib\\UIControls
+		SccProjectUniqueName6 = ..\\Zen.Lib\\Utilities\\Zen.Utilities.csproj
+		SccProjectTopLevelParentUniqueName6 = Zen.Software.sln
+		SccProjectName6 = \u0022$/DotNet/Zen.Lib/Utilities\u0022,\u0020KEAAAAAA
+		SccLocalPath6 = ..\\Zen.Lib\\Utilities
+		SccProjectUniqueName7 = ..\\Zen.Lib\\DBMS\\Zen.DBMS.csproj
+		SccProjectTopLevelParentUniqueName7 = Zen.Software.sln
+		SccProjectName7 = \u0022$/DotNet/Zen.Lib/DBMS\u0022,\u0020GAAAAAAA
+		SccLocalPath7 = ..\\Zen.Lib\\DBMS
+		SccProjectUniqueName8 = Zen.ServiceController\\Zen.ServiceController.csproj
+		SccProjectName8 = \u0022$/DotNet/Zen.Software/Zen.ServiceController\u0022,\u0020OPAAAAAA
+		SccLocalPath8 = Zen.ServiceController
+		SccProjectUniqueName9 = Zen.Scheduler\\Zen.Scheduler.csproj
+		SccProjectName9 = \u0022$/DotNet/Zen.Software/Zen.Scheduler\u0022,\u0020VNAAAAAA
+		SccLocalPath9 = Zen.Scheduler
+		SccProjectUniqueName10 = Zen.OCRService\\Zen.OcrExecutor.csproj
+		SccProjectName10 = \u0022$/DotNet/Zen.Software/Zen.OCRService\u0022,\u0020KLAAAAAA
+		SccLocalPath10 = Zen.OCRService
+		SccProjectUniqueName11 = Zen.RenameFiles\\Zen.RenameFiles.csproj
+		SccProjectName11 = \u0022$/DotNet/Zen.Software/Zen.RenameFiles\u0022,\u0020CTAAAAAA
+		SccLocalPath11 = Zen.RenameFiles
+		SccProjectUniqueName12 = Zen.OCRService\\ModiLib\\ModiLib.csproj
+		SccProjectName12 = \u0022$/DotNet/Zen.Software/Zen.OCRService/ModiLib\u0022,\u0020PLAAAAAA
+		SccLocalPath12 = Zen.OCRService\\ModiLib
+		SccProjectUniqueName13 = Zen.Cassini\\Cassini\\Zen.Cassini.csproj
+		SccProjectName13 = \u0022$/DotNet/Zen.Software/Zen.Cassini/Cassini\u0022,\u0020ZIAAAAAA
+		SccLocalPath13 = Zen.Cassini\\Cassini
+		SccProjectUniqueName14 = Zen.DBAToolbox\\Zen.DBAToolbox.csproj
+		SccProjectName14 = \u0022$/DotNet/Zen.Software/Zen.DBAToolbox\u0022,\u0020CHAAAAAA
+		SccLocalPath14 = Zen.DBAToolbox
+		SccProjectUniqueName15 = ..\\Zen.Lib\\Zen.Common.Def\\Zen.Common.Def.csproj
+		SccProjectTopLevelParentUniqueName15 = Zen.Software.sln
+		SccProjectName15 = \u0022$/DotNet/Zen.Lib/Zen.Common.Def\u0022,\u0020LECAAAAA
+		SccLocalPath15 = ..\\Zen.Lib\\Zen.Common.Def
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3A16B0B-CC1C-4588-A843-3E7F7DF948FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A16B0B-CC1C-4588-A843-3E7F7DF948FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A16B0B-CC1C-4588-A843-3E7F7DF948FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A16B0B-CC1C-4588-A843-3E7F7DF948FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB339A0-B736-483A-9BC1-44188260B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03E3875-C71A-47D8-9B2D-2CE1DEFF3764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDFFD13-59AA-4EF1-87DB-DC7F56F1EDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDFFD13-59AA-4EF1-87DB-DC7F56F1EDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDFFD13-59AA-4EF1-87DB-DC7F56F1EDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDFFD13-59AA-4EF1-87DB-DC7F56F1EDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE9E8F3-AD40-446B-BE1C-5D1DA552BBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE9E8F3-AD40-446B-BE1C-5D1DA552BBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE9E8F3-AD40-446B-BE1C-5D1DA552BBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE9E8F3-AD40-446B-BE1C-5D1DA552BBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95808D53-8BDB-4994-88B6-7B4037A12720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A7EC62-5A21-477F-8873-9D3B5B9B8DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705C5A63-ECEA-4588-93E2-2EFCB0788162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705C5A63-ECEA-4588-93E2-2EFCB0788162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705C5A63-ECEA-4588-93E2-2EFCB0788162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705C5A63-ECEA-4588-93E2-2EFCB0788162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E40E0E-7D51-4BAD-940C-9F9D9E7411E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F818512-0936-4239-9867-2BADAA7CE037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C505A649-BE90-4E02-AE73-162697F8BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357F78E0-53E5-4004-B6CC-DAD134923E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9A3C38-1D65-4FDD-A7EE-9EF9B9622B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86162620-1DA6-4292-A3CD-4763D4C7EA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86162620-1DA6-4292-A3CD-4763D4C7EA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86162620-1DA6-4292-A3CD-4763D4C7EA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86162620-1DA6-4292-A3CD-4763D4C7EA36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F818512-0936-4239-9867-2BADAA7CE037} = {F96DD49E-B430-4669-96F1-FD9F3977ADAB}
+		{C505A649-BE90-4E02-AE73-162697F8BEBC} = {F96DD49E-B430-4669-96F1-FD9F3977ADAB}
+		{8B1FF9C0-92AD-44C2-8526-5BC5AB4122B6} = {F96DD49E-B430-4669-96F1-FD9F3977ADAB}
+		{86162620-1DA6-4292-A3CD-4763D4C7EA36} = {F96DD49E-B430-4669-96F1-FD9F3977ADAB}
+	EndGlobalSection
+EndGlobal

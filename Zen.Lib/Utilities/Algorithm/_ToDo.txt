@@ -1,0 +1,22 @@
+﻿
+A state machine?
+  Running: Stop / Pause
+  Stop: Start / Running
+  Pause: Start (Continue)
+  
+Status (1) --> (N) Action  
+Action (1) --> (1) Status
+
+Transition state: No Action Allowed.
+
+In between status
+  Loader: Start -- Loading -- Loaded
+  
+Succeede: Re-start may not allowed  
+Failed: Re-start allowed.
+
+Service Monitor:
+  Monitor memory usage
+    
+    
+Exception: unless no way to handle it, don't throw exception.  

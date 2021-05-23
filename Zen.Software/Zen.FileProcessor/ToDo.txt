@@ -1,0 +1,26 @@
+﻿
+Input text box:
+ scroll : done
+ font color
+ drag & drop: drag out
+
+Provide output text box side by side: done
+
+Default config:
+  init dir
+  option / mru file
+  
+Folder: relative path: done.  
+  
+C# Macro?
+
+Option dialog: 
+  +: load options (based on active tab / option type
+
+Do I always use Regex instead of raw string match?
+  Performance? UI usability?
+
+
+Text mining: multiple files. word matrix.
+  Noise data
+  Unicode / Asian Language
